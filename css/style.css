@@ -1,43 +1,47 @@
 h1 {
-    font-size: xx-large;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: goldenrod;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: goldenrod;
 }
 
 .country {
-    border: 3px solid goldenrod;
-    border-radius: 10px;
-    width: 30%;
-    height: 100%;
-    margin: 10px;
-    padding: 20px 5px;
-    background-color: rgba(238, 223, 206, 0.692);
-    float: left;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+  width: 30%;
+  height: 100%;
+  margin: 10px;
+  padding: 20px 5px;
+  background-color: rgba(238, 223, 206, 0.692);
+  float: left;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
-div>h3 {
-    color: rgb(167, 122, 11);
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+div > h3 {
+  color: rgb(167, 122, 11);
+  text-align: center;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-div>p {
-    text-align: justify;
+div > p {
+  text-align: justify;
+  height: 100px;
+  overflow: auto;
 }
 
-div>img {
-    width: 100%;
+div > img {
+  width: 100%;
 }
 
 div:hover {
-    background-color: azure;
+  background-color: azure;
 
-    box-shadow: inset -1px 3px 8px 5px #d4f578, 2px 5px 16px 0px #c6db08, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px #d4f578, 2px 5px 16px 0px #c6db08,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
